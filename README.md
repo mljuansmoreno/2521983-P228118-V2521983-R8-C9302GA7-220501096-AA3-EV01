@@ -6,7 +6,7 @@ Esta evidencia, denominada GA7-220501096-AA3, corresponde al proyecto realizado 
 
 A continuación, se muestra una vista previa del proyecto:
 
-![Muestra del proyecto](financiera\src\muestra.gif)
+![Muestra del proyecto](src\muestra.gif)
 
 
 
