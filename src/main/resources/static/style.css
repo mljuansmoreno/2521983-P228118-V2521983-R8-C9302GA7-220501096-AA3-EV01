@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* Proporción 16:9 - ajusta este valor según sea necesario */
+  }
+  
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Media Query para la capacidad de respuesta */
+  @media screen and (max-width: 768px) {
+    .video-container {
+      padding-bottom: 75%; /* Ajusta este valor para pantallas más pequeñas */
+    }
+  }
+
+  
+  

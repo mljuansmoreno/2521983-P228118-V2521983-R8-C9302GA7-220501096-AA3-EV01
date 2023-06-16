@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: tu.asesoria.financiera.FinancieraApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.518 s - in tu.asesoria.financiera.FinancieraApplicationTests
