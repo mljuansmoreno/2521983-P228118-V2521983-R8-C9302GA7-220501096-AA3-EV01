@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* Proporción 16:9 - ajusta este valor según sea necesario */
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    /* Hacer el contenedor de video responsive para todo dispositivo */
+    padding-bottom: 56.25%; /* Proporción 16:9 - ajusta este valor según sea necesario */
+}
+  
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 10%;
+    min-height: 10%;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+  
+  /* Media Query para la capacidad de respuesta */
+  @media screen and (max-width: 768px) {
+    .video-container {
+      padding-bottom: 75%; /* Ajusta este valor para pantallas más pequeñas */
+    }
+  }
+
+   /* Estilos adicionales para colocar el video en el fondo */
+   body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: #fff;
+}
+
+
+.video-container video {
+   
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    /* color blanco */
+    color: #fff;
+    /* tipo de letra */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+}
+
+p {
+    /* espacio entre h1 y p */
+    margin-top: 90px;
+    text-align: center;
+    font-size: 38px;
+}
+
+p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+  
